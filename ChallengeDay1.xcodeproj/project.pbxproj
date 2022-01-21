@@ -11,6 +11,13 @@
 		85A9F63E279B2C6E00C615C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A9F63D279B2C6E00C615C8 /* ContentView.swift */; };
 		85A9F640279B2C7100C615C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85A9F63F279B2C7100C615C8 /* Assets.xcassets */; };
 		85A9F643279B2C7100C615C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85A9F642279B2C7100C615C8 /* Preview Assets.xcassets */; };
+		85A9F64A279B2D0700C615C8 /* UnitType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A9F649279B2D0700C615C8 /* UnitType.swift */; };
+		85A9F64C279B2D2000C615C8 /* NamedUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A9F64B279B2D2000C615C8 /* NamedUnit.swift */; };
+		85A9F64E279B2D4200C615C8 /* UnitTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A9F64D279B2D4200C615C8 /* UnitTypes.swift */; };
+		85A9F650279B2D6400C615C8 /* Volume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A9F64F279B2D6400C615C8 /* Volume.swift */; };
+		85A9F652279B2D9400C615C8 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A9F651279B2D9400C615C8 /* Time.swift */; };
+		85A9F654279B2DAB00C615C8 /* Length.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A9F653279B2DAB00C615C8 /* Length.swift */; };
+		85A9F656279B2DFD00C615C8 /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A9F655279B2DFD00C615C8 /* Temperature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		85A9F63D279B2C6E00C615C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		85A9F63F279B2C7100C615C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85A9F642279B2C7100C615C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		85A9F649279B2D0700C615C8 /* UnitType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitType.swift; sourceTree = "<group>"; };
+		85A9F64B279B2D2000C615C8 /* NamedUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamedUnit.swift; sourceTree = "<group>"; };
+		85A9F64D279B2D4200C615C8 /* UnitTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTypes.swift; sourceTree = "<group>"; };
+		85A9F64F279B2D6400C615C8 /* Volume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Volume.swift; sourceTree = "<group>"; };
+		85A9F651279B2D9400C615C8 /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		85A9F653279B2DAB00C615C8 /* Length.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Length.swift; sourceTree = "<group>"; };
+		85A9F655279B2DFD00C615C8 /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +67,13 @@
 			children = (
 				85A9F63B279B2C6E00C615C8 /* ChallengeDay1App.swift */,
 				85A9F63D279B2C6E00C615C8 /* ContentView.swift */,
+				85A9F649279B2D0700C615C8 /* UnitType.swift */,
+				85A9F64B279B2D2000C615C8 /* NamedUnit.swift */,
+				85A9F64D279B2D4200C615C8 /* UnitTypes.swift */,
+				85A9F64F279B2D6400C615C8 /* Volume.swift */,
+				85A9F651279B2D9400C615C8 /* Time.swift */,
+				85A9F653279B2DAB00C615C8 /* Length.swift */,
+				85A9F655279B2DFD00C615C8 /* Temperature.swift */,
 				85A9F63F279B2C7100C615C8 /* Assets.xcassets */,
 				85A9F641279B2C7100C615C8 /* Preview Content */,
 			);
@@ -138,7 +159,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				85A9F63E279B2C6E00C615C8 /* ContentView.swift in Sources */,
+				85A9F654279B2DAB00C615C8 /* Length.swift in Sources */,
+				85A9F656279B2DFD00C615C8 /* Temperature.swift in Sources */,
+				85A9F64A279B2D0700C615C8 /* UnitType.swift in Sources */,
+				85A9F652279B2D9400C615C8 /* Time.swift in Sources */,
+				85A9F64E279B2D4200C615C8 /* UnitTypes.swift in Sources */,
+				85A9F650279B2D6400C615C8 /* Volume.swift in Sources */,
 				85A9F63C279B2C6E00C615C8 /* ChallengeDay1App.swift in Sources */,
+				85A9F64C279B2D2000C615C8 /* NamedUnit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
